@@ -1,5 +1,5 @@
 (function (rs) {
-    var endpointUrl = 'https://www.reviewsolicitors.co.uk/';
+    var endpointUrl = 'https://solicitors.ygg-prod.prevs.net/';
     //var endpointUrl = 'http://localhost:8080/';
     // var endpointUrl = 'https://rsstaging.prevs.net/';
 
