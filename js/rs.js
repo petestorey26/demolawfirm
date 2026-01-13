@@ -1,6 +1,6 @@
 (function (rs) {
-    var endpointUrl = 'https://www2.reviewsolicitors.co.uk/';
-    //var endpointUrl = 'http://localhost:8080/';
+    var endpointUrl = 'https://www.lawyerup.co.uk/';
+    // var endpointUrl = 'http://localhost:8080/';
     // var endpointUrl = 'https://rsstaging.prevs.net/';
 
     var widgetUrl = endpointUrl + 'widget/';
