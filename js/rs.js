@@ -1,7 +1,7 @@
 (function (rs) {
     // var endpointUrl = 'https://www.lawyerup.co.uk/';
-    var endpointUrl = 'https://www.reviewsolicitors.co.uk/';
-    // var endpointUrl = 'https://rsstaging.prevs.net/';
+    // var endpointUrl = 'https://www.reviewsolicitors.co.uk/';
+    var endpointUrl = 'https://solicitors.yggdrasil.prevs.net/';
 
     var widgetUrl = endpointUrl + 'widget/';
 
@@ -94,7 +94,7 @@
 
     rs.widgetLoaded = function (e) {
         try {
-            var jsonObj = eval('(function(){return ' + e.data + ';})()');
+            var jsonObj = JSON.parse(e.data);
         } catch (e) {
             return;
         }
