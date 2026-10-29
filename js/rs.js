@@ -1,7 +1,7 @@
 (function (rs) {
     // var endpointUrl = 'https://www.lawyerup.co.uk/';
-    // var endpointUrl = 'https://www.reviewsolicitors.co.uk/';
-    var endpointUrl = 'https://solicitors.yggdrasil.prevs.net/';
+    var endpointUrl = 'https://solicitors.sales.prevs.net/';
+    // var endpointUrl = 'https://solicitors.yggdrasil.prevs.net/';
 
     var widgetUrl = endpointUrl + 'widget/';
 
